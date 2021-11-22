@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     # The type of runner that the job will run on
-    runs-on: alpine:latest
+    runs-on: ubuntu-latest
     env: 
       DOCKER_DRIVER: overlay
       SSH_GITLAB_KEY: $SSH_PRIVATE_KEY
